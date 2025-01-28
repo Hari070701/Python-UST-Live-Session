@@ -1,6 +1,5 @@
 import os
 
-# Path to Downloads folder
 downloads_path = os.path.expanduser("~/Downloads")
 
 if os.path.exists(downloads_path):
