@@ -6,6 +6,7 @@ date_obj = datetime.strptime(date_input, "%d/%m/%Y")
 
 formatted_date = date_obj.strftime("%A %d %B %Y")
 print("Formatted Date:", formatted_date)
+
 day_of_week = date_obj.strftime("%A")
 print("Day of the Week:", day_of_week)
 
